@@ -45,3 +45,24 @@ A **Random Forest Classifier** was trained on 80% of the patient dataset and eva
 4. **Antral Follicle Count:** ~15% relative importance
 5. **Age:** ~2% relative importance
 
+---
+
+## 💻 Interactive Streamlit Web App
+
+This project includes an interactive web application built with Streamlit that allows users to input clinical measurements and receive real-time PCOS risk assessments powered by the trained Machine Learning model.
+
+### Features
+* **Interactive Parameters:** Sliders and numerical inputs for BMI, Age, Menstrual Irregularity, Testosterone levels, and Antral Follicle Count.
+* **Instant Prediction:** Returns a risk classification (High Risk vs. Low Risk) along with confidence probability.
+
+---
+
+## 🏃 How to Run the App Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ashlag54/pcos_risk_classification.git](https://github.com/ashlag54/pcos_risk_classification.git)
+   cd pcos_risk_classification
+   pip install -r requirements.txt
+   python -m streamlit run app.py
+   
