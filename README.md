@@ -45,6 +45,3 @@ A **Random Forest Classifier** was trained on 80% of the patient dataset and eva
 4. **Antral Follicle Count:** ~15% relative importance
 5. **Age:** ~2% relative importance
 
----
-
-Would you like help setting up your GitHub repository to host this code and project file?
