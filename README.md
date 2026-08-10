@@ -1,18 +1,3 @@
-# pcos_risk_classification
-Now that all your code, analysis, and visualizations are complete, the final step is to **package this into a professional portfolio project**!
-
-Having working code is great, but what sets top data analysts apart is the ability to write a clean, compelling summary that bridges **data science and clinical context**.
-
----
-
-## The Next Step: Create Your GitHub `README.md`
-
-Below is a ready-to-use draft for your project's `README.md` file (or executive summary). You can copy this directly into GitHub or use it when presenting this project in interviews.
-
----
-
-### 📄 Project Summary Template
-
 # 🩺 PCOS Clinical Risk Classification & Feature Analysis
 
 ## 📌 Project Overview
