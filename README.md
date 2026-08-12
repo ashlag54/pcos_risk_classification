@@ -27,6 +27,20 @@ This project builds an end-to-end data analytics and machine learning pipeline u
 2. **Hormone & Imaging Signals:** Higher **Testosterone levels** and elevated **Antral Follicle Counts** consistently correlated with positive diagnoses, aligning with standard Rotterdam criteria for PCOS screening.
 3. **Irrelevant Markers:** **Age** showed virtually zero correlation ($r = -0.06$) with diagnosis in this demographic, confirming that risk spans across reproductive ages.
 
+### 1. Clinical Parameter Distributions
+Comparing key diagnostic markers across diagnosed PCOS vs. non-PCOS cases highlights clear elevation in both **Antral Follicle Count** and **Testosterone Levels**:
+
+<img width="1184" height="484" alt="image" src="https://github.com/user-attachments/assets/28af3f89-8624-4fd8-8288-ae12e07a3c2a" />
+
+
+---
+
+### 2. Feature Correlation Heatmap
+Exploratory correlation analysis reveals that **Menstrual Irregularity (0.47)** and **BMI (0.38)** exhibit the strongest linear relationship with a positive PCOS diagnosis:
+
+<img width="806" height="688" alt="image" src="https://github.com/user-attachments/assets/ce5f037f-d6fa-438d-9194-59e960f33923" />
+
+
 ---
 
 ## 🤖 Model Performance & Evaluation
@@ -38,6 +52,10 @@ A **Random Forest Classifier** was trained on 80% of the patient dataset and eva
 * **Recall (Priority Metric):** 1.00 (Zero missed diagnoses)
 
 > **Healthcare Focus:** In clinical screening, **Recall** is prioritized to ensure that zero symptomatic patients fall through the cracks without follow-up care.
+
+Feature importance scores extracted from the Random Forest model demonstrate that **BMI** and **Menstrual Irregularity** carry the highest predictive weight, followed by **Testosterone Levels** and **Antral Follicle Count**:
+
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/d4e8e00d-b750-4965-a52b-f886c0b88c6d" />
 
 ---
 
@@ -63,10 +81,14 @@ This project includes an interactive web application built with Streamlit that a
 
 ## 🏃 How to Run the App Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/ashlag54/pcos_risk_classification.git](https://github.com/ashlag54/pcos_risk_classification.git)
-   cd pcos_risk_classification
-   pip install -r requirements.txt
-   python -m streamlit run app.py
-   
+# 1. Clone the repository
+git clone https://github.com/ashlag54/pcos_risk_classification.git
+
+# 2. Navigate to project directory
+cd pcos_risk_classification
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run Streamlit app
+python -m streamlit run app.py
