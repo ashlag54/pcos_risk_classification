@@ -12,7 +12,7 @@ st.write("Adjust the patient clinical parameters below to assess predicted PCOS 
 # Load dataset and train model (cached so it runs fast)
 @st.cache_resource
 def load_and_train():
-    df = pd.read_csv("data/pcos_dataset.csv")  # Adjust path if in 'data/pcos_dataset.csv'
+    df = pd.read_csv("pcos_dataset.csv")  # Adjust path if in 'data/pcos_dataset.csv'
     df.columns = df.columns.str.strip()
     
     X = df.drop(columns=['PCOS_Diagnosis'])
