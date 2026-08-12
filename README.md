@@ -1,5 +1,8 @@
-# 🩺 PCOS Clinical Risk Classification & Feature Analysis
-> 🔗 **Live Web App:** [Launch Application](YOUR_STREAMLIT_URL_HERE)
+# 🩺 PCOS Risk Classification & Clinical Screening Tool
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pcosriskclassification.streamlit.app/)
+
+> 🔗 **Live Web App:** [Click here to launch the application](https://pcosriskclassification.streamlit.app/)
 
 ## 📌 Project Overview
 
